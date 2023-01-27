@@ -81,10 +81,10 @@
     $('.odometer').each(function () {
       if ($(this).isInViewport()) {
         setTimeout(function () {
-          $('.odometer_number_one').html('50');
+          $('.odometer_number_one').html('12');
           $('.odometer_number_two').html('20');
           $('.odometer_number_three').html('210');
-          $('.odometer_number_four').html('200');
+          $('.odometer_number_four').html('60');
         }, 5);
       } else {}
     });
